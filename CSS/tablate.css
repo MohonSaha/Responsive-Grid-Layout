@@ -1,0 +1,26 @@
+/* Responsive grid for medium devices  */
+
+@media screen and (min-width:577px) and (max-width:992px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "aside main main"
+        "aside main main"
+        "ad footer footer"
+        ;
+    }
+
+    
+    /* style navbar area using flex  */
+    .nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav ul li{
+        list-style: none;
+    }
+
+}

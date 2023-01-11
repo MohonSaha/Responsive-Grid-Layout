@@ -1,0 +1,30 @@
+/* Responsive grid for mobile devices  */
+
+@media screen and (max-width:576px) {
+
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "aside"
+        "ad"
+        "footer"
+        ;
+    }
+
+
+    /* style navbar area using flex  */
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li{
+    list-style: none;
+}
+}
+
+
+
